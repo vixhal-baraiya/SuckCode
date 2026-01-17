@@ -1,0 +1,20 @@
+[project]
+name = "suckcode"
+version = "0.1.0"
+description = "Minimal AI coding assistant - minimum code, maximum features"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.0.0",
+    "httpx>=0.27.0",
+]
+
+[project.scripts]
+suckcode = "suckcode:main"
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "mypy"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
