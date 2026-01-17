@@ -14,7 +14,7 @@
 ## Quick Start
 
 ```bash
-pip install rich httpx
+pip install rich httpx Pillow
 export OPENROUTER_API_KEY="your-key"
 python -m suckcode
 ```
@@ -71,3 +71,4 @@ args = ["-y", "@anthropic/mcp-server-filesystem", "."]
 ## License
 
 MIT
+
